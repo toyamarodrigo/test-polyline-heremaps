@@ -16,4 +16,4 @@ Simple starting template
 
 ## Screenshot
 
-![Example](https://i.imgur.com/EP4R0aS.png)
+![Example](https://i.imgur.com/bKgLsmA.png)
