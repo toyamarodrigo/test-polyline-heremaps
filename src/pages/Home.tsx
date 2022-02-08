@@ -53,6 +53,7 @@ export const Home = () => {
           minH="90px"
           placeholder="BG7gn_hCnxmrvDwJgFwH3NsdrxBoLjXwMvWsJvRgFrJgKjSnG3DzP3InQrJvHrE7G3DriBvRzenQnVjIrOrEjXjDAwWz3BA_O8BvMsEUjsDAz9DrY0Z31BsJnf4D_gC0FsD08B"
           position="relative"
+          resize="none"
           top="20px"
           value={encodedPolyline}
           variant="filled"
