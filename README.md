@@ -1,19 +1,19 @@
-# ViteJS - ChakraUI - Redux Toolkit - Typescript
-
-Simple starting template
+# Test encoded Polyline HERE maps
 
 ## How to start
 
 ```sh
-> git clone https://github.com/toyamarodrigo/vite-chakra-redux-tsc.git
+> git clone https://github.com/toyamarodrigo/test-polyline-heremaps.git
 
-> cd vite-chakra-rtk-tsc
+> cd test-polyline-heremaps
 
 > yarn
 
 > yarn dev
 ```
 
-## Screenshot
+## Screeshots
 
-![Example](https://i.imgur.com/bKgLsmA.png)
+![https://i.imgur.com/aWDlogK.png](https://i.imgur.com/aWDlogK.png)
+
+![https://i.imgur.com/N347n16.png](https://i.imgur.com/N347n16.png)
