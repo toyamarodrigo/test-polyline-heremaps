@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import {
   Button,
   Textarea,
@@ -9,9 +10,10 @@ import {
   ModalContent,
   ModalHeader,
   ModalOverlay,
+  IconButton,
 } from "@chakra-ui/react";
+import { FaGithubAlt } from "react-icons/fa";
 import { LatLngExpression } from "leaflet";
-import React, { useState } from "react";
 
 import { LeafletMap } from "../components";
 import { BasicLayout } from "../layout";
@@ -91,6 +93,20 @@ export const Home = () => {
         >
           output
         </Button>
+      </Stack>
+      <Stack direction="row">
+        <IconButton
+          aria-label="Github repo"
+          as="a"
+          colorScheme="blackAlpha"
+          href="https://github.com/toyamarodrigo/test-polyline-heremaps"
+          icon={<FaGithubAlt />}
+          position="absolute"
+          right="40px"
+          rounded="full"
+          target="_blank"
+          top="40px"
+        />
       </Stack>
       <Modal isOpen={isOpen} scrollBehavior="inside" onClose={onClose}>
         <ModalOverlay />

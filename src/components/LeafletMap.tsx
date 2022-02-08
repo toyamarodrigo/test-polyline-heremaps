@@ -19,7 +19,7 @@ export const LeafletMap = ({ polyline }: Props) => {
       zoom={11}
       zoomControl={false}
     >
-      <ZoomControl position="topright" />
+      <ZoomControl position="bottomright" />
 
       {polyline && <Polyline pathOptions={{ color: "red" }} positions={polyline} />}
 
